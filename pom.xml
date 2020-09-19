@@ -23,4 +23,23 @@
         <java.version>14</java.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:Jester0027/pet-clinic.git</developerConnection>
+    </scm>
 </project>
