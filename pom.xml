@@ -41,6 +41,13 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>pet-clinic</id>
+            <name>Pet clinic</name>
+        </repository>
+    </distributionManagement>
+
     <scm>
         <developerConnection>scm:git:git@github.com:Jester0027/pet-clinic.git</developerConnection>
       <tag>HEAD</tag>
