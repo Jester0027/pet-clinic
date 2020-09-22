@@ -2,9 +2,11 @@ package com.outlook.ned.paul.petclinic.services.map;
 
 import com.outlook.ned.paul.petclinic.model.Pet;
 import com.outlook.ned.paul.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
