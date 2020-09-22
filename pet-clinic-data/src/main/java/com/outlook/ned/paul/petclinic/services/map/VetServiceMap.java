@@ -1,11 +1,11 @@
 package com.outlook.ned.paul.petclinic.services.map;
 
 import com.outlook.ned.paul.petclinic.model.Vet;
-import com.outlook.ned.paul.petclinic.services.CrudService;
+import com.outlook.ned.paul.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
